@@ -2573,7 +2573,7 @@
    * @param {'driving-traffic'|'driving'|'walking'|'cycling'} [config.profile=driving] - A directions profile ID.
    * @param {Array<'duration'|'distance'|'speed'>} [config.annotations] - Specify additional metadata that should be returned.
    * @param {'geojson'|'polyline'|'polyline6'} [config.geometries="polyline"] - Format of the returned geometry.
-   * @param {string} [config.language="en"] - Language of returned turn-by-turn text instructions.
+   * @param {string} [config.language="fr"] - Language of returned turn-by-turn text instructions.
    *   See [supported languages](https://www.mapbox.com/api-documentation/navigation/#instructions-languages).
    * @param {'simplified'|'full'|'false'} [config.overview="simplified"] - Type of returned overview geometry.
    * @param {boolean} [config.steps=false] - Whether to return steps and turn-by-turn instructions.
@@ -2897,7 +2897,7 @@
    * @param {'any'|'last'} [config.destination="any"] - Returned route ends at `any` or `last` coordinate.
    * @param {Array<Distribution>} [config.distributions] - An ordered array of [`Distribution`](#distribution) objects, each of which includes a `pickup` and `dropoff` property. `pickup` and `dropoff` properties correspond to an index in the OptimizationWaypoint array.
    * @param {'geojson'|'polyline'|'polyline6'} [config.geometries="polyline"] - Format of the returned geometries.
-   * @param {string} [config.language="en"] - Language of returned turn-by-turn text instructions.
+   * @param {string} [config.language="fr"] - Language of returned turn-by-turn text instructions.
    *   See options listed in [the HTTP service documentation](https://www.mapbox.com/api-documentation/navigation/#instructions-languages).
    * @param {'simplified'|'full'|'false'} [config.overview="simplified"] - Type of returned overview geometry.
    * @param {boolean} [config.roundtrip=true] - Specifies whether the trip should complete by returning to the first location.

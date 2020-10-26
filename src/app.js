@@ -28,7 +28,7 @@ import defaultMessages from './translations/en.json';
 //   4) To support older browsers we need add the correct locale for intl-relativetimeformat to `util/polyfills.js`
 
 // Note that there is also translations in './translations/countryCodes.js' file
-// This file contains ISO 3166-1 alpha-2 country codes, country names and their translations in our default languages
+// This file contains ISO 3166-1 alpha-2 country codes, country names and their translations in our uages
 // This used to collect billing address in StripePaymentAddress on CheckoutPage
 
 // Step 2:
@@ -73,7 +73,7 @@ const setupLocale = () => {
   if (isTestEnv) {
     // Use english as a default locale in tests
     // This affects app.test.js and app.node.test.js tests
-    config.locale = 'en';
+    config.locale = 'fr';
     return;
   }
 
